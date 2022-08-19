@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    background: salmon;
+}
+.centrar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.caja {
+    background: lightpink;
+}
+.marge {
+    height: 600px;
+    background-color: aliceblue;
+    background-image: url(../images/Finn.png);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+h1 {
+    font-family: 'DynaPuff', cursive;
+    font-size: 50px;
+}
+h2 {
+    font-family: 'DynaPuff', cursive;
+    font-size: 30px;
+}
+.jake {
+    height: 600px;
+    background-color: yellow;
+    background-image: url(../images/jake.webp);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
